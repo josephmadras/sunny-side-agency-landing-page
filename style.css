@@ -27,17 +27,18 @@ nav ul li {
 nav ul li:hover {
   cursor: pointer;
   background-color: rgba(255, 255, 255, 0.548);
-  color: #000;
-  font-weight: 700;
-  border-radius: 20px;
   color: #fff;
   text-transform: uppercase;
-  font-size: 0.9rem;
+  border-radius: 20px;
 }
-
 .hamburger {
   display: none;
+  font-size: 30px;
+  background-color: transparent;
+  cursor: pointer;
+  /* outline: none; */
 }
+
 .header {
   background: url("./images/desktop/image-header.jpg") no-repeat center;
   height: 700px;
